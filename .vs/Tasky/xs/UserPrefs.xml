@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{B65279D3-0FC0-46EB-98F6-C078DBA5F92C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasky.iOS/Main.cs">
+    <Files>
+      <File FileName="Tasky/MainPage.xaml" Line="15" Column="30" />
+      <File FileName="Tasky/MainPage.xaml.cs" Line="49" Column="17" />
+      <File FileName="Tasky.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tasky" expanded="True">
+            <Node name="Tasky" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Tasky.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Tasky.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AA666704-BBFD-45A5-9F4E-CBD7EC96115C" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Tasky.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_2_API_27" />
+</Properties>

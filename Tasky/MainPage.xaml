@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Tasky.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="TO-DO">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Clicked" Text="+" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="20">
+        <!-- <SearchBar Placeholder="Search..." TextChanged="Handle_TextChanged" />-->
+
+        <ListView x:Name="listView" HasUnevenRows="true">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <!--  CommandParameter는 MenuItem과 이벤트 처리기의 연결을 위한 속성  -->
+                            <!--  MenuItem에 대응하는 ListView Item의 모든 속성을 가져오기 위해 바인딩 값을 .으로 지정  -->
+                            <MenuItem
+                                Clicked="MenuItem_Clicked"
+                                CommandParameter="{Binding .}"
+                                Text="Check" />
+
+                            <!--  isDestruction 속성: Context Action을 빨간색으로 표시 여부 설정  -->
+                            <MenuItem
+                                Clicked="MenuItem_Clicked_1"
+                                CommandParameter="{Binding .}"
+                                IsDestructive="true"
+                                Text="Delete" />
+
+                        </ViewCell.ContextActions>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical">
+
+                                <Editor
+                                    FontSize="20"
+                                    Text="{Binding Name}"
+                                    WidthRequest="330" />
+
+                                <Label Text="{Binding Date}" TextColor="LightGray" />
+
+                            </StackLayout>
+                            <CheckBox />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button
+            BackgroundColor="Silver"
+            Clicked="Button_Clicked"
+            Text="Button" />
+    </StackLayout>
+</ContentPage>

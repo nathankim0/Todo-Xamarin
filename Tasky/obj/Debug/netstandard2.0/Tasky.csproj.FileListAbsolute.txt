@@ -1,0 +1,14 @@
+/Users/jinyeob/Projects/Tasky/Tasky/bin/Debug/netstandard2.0/Tasky.deps.json
+/Users/jinyeob/Projects/Tasky/Tasky/bin/Debug/netstandard2.0/Tasky.dll
+/Users/jinyeob/Projects/Tasky/Tasky/bin/Debug/netstandard2.0/ref/Tasky.dll
+/Users/jinyeob/Projects/Tasky/Tasky/bin/Debug/netstandard2.0/Tasky.pdb
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.csprojAssemblyReference.cache
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.AssemblyInfoInputs.cache
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.AssemblyInfo.cs
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.csproj.CoreCompileInputs.cache
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.dll
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/ref/Tasky.dll
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.pdb
