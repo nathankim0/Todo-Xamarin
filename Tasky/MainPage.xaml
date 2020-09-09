@@ -5,26 +5,46 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="TO-DO">
 
+    <!--
     <ContentPage.ToolbarItems>
         <ToolbarItem Clicked="ToolbarItem_Clicked" Text="+" />
     </ContentPage.ToolbarItems>
-
+    -->
     <StackLayout Margin="20">
         <!-- <SearchBar Placeholder="Search..." TextChanged="Handle_TextChanged" />-->
+        <!--
+        <ListView
+            x:Name="listView"
+            Margin="{StaticResource PageMargin}"
+            ItemSelected="OnListViewItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell
+                        Detail="{Binding Date}"
+                        Text="{Binding Text}"
+                        TextColor="Black" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        -->
 
-        <ListView x:Name="listView" HasUnevenRows="true">
+
+
+
+
+
+
+        <ListView
+            x:Name="listView"
+            HasUnevenRows="true"
+            ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <!--
                         <ViewCell.ContextActions>
-                            <!--  CommandParameter는 MenuItem과 이벤트 처리기의 연결을 위한 속성  -->
-                            <!--  MenuItem에 대응하는 ListView Item의 모든 속성을 가져오기 위해 바인딩 값을 .으로 지정  -->
-                            <MenuItem
-                                Clicked="MenuItem_Clicked"
-                                CommandParameter="{Binding .}"
-                                Text="Check" />
 
-                            <!--  isDestruction 속성: Context Action을 빨간색으로 표시 여부 설정  -->
+
                             <MenuItem
                                 Clicked="MenuItem_Clicked_1"
                                 CommandParameter="{Binding .}"
@@ -32,26 +52,32 @@
                                 Text="Delete" />
 
                         </ViewCell.ContextActions>
+                        -->
                         <StackLayout Orientation="Horizontal">
                             <StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical">
 
-                                <Editor
+                                <Label
                                     FontSize="20"
-                                    Text="{Binding Name}"
+                                    Text="{Binding Text}"
                                     WidthRequest="330" />
 
                                 <Label Text="{Binding Date}" TextColor="LightGray" />
 
                             </StackLayout>
-                            <CheckBox />
+                            <CheckBox
+                                CheckedChanged="CheckBox_CheckedChanged"
+                                IsChecked="{Binding Done}"
+                                Color="HotPink" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
         <Button
-            BackgroundColor="Silver"
             Clicked="Button_Clicked"
-            Text="Button" />
+            FontSize="30"
+            Text="+ Add"
+            TextColor="HotPink" />
     </StackLayout>
 </ContentPage>

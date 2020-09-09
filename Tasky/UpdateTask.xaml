@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="Tasky.UpdateTask"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+            <Entry
+                HeightRequest="100"
+                Placeholder="Enter your Todo"
+                Text="{Binding Text}" />
+            <Switch IsToggled="{Binding Done}" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+
+                </Grid.ColumnDefinitions>
+
+                <Button Clicked="OnSaveButtonClicked" Text="Save" />
+                <Button
+                    Grid.Column="1"
+                    Clicked="OnDeleteButtonClicked"
+                    Text="Delete"
+                    TextColor="Red" />
+                <Button
+                    Grid.Column="2"
+                    Clicked="OnCacelButtonClicked"
+                    Text="Cancel" />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

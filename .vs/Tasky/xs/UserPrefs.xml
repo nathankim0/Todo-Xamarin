@@ -1,29 +1,34 @@
 ﻿<Properties StartupConfiguration="{B65279D3-0FC0-46EB-98F6-C078DBA5F92C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tasky.iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasky/MainPage.xaml">
     <Files>
-      <File FileName="Tasky/MainPage.xaml" Line="15" Column="30" />
-      <File FileName="Tasky/MainPage.xaml.cs" Line="49" Column="17" />
-      <File FileName="Tasky.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Tasky/MainPage.xaml" Line="68" Column="57" />
+      <File FileName="Tasky/UpdateTask.xaml" Line="27" Column="39" />
+      <File FileName="Tasky/UpdateTask.xaml.cs" Line="18" Column="45" />
+      <File FileName="Tasky/Todo.cs" Line="1" Column="1" />
+      <File FileName="Tasky/MainPage.xaml.cs" Line="42" Column="42" />
+      <File FileName="Tasky/Data/Database.cs" Line="26" Column="26" />
+      <File FileName="Tasky/App.xaml.cs" Line="18" Column="139" />
+      <File FileName="Tasky.iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tasky" expanded="True">
             <Node name="Tasky" expanded="True">
+              <Node name="Data" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="UpdateTask.xaml" expanded="True" />
             </Node>
-            <Node name="Tasky.iOS" expanded="True">
-              <Node name="Main.cs" selected="True" />
-            </Node>
+            <Node name="Tasky.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Tasky.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AA666704-BBFD-45A5-9F4E-CBD7EC96115C" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Tasky.iOS Xamarin.HotReload.UnhandledDeviceException.Tasky.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008030-0001619426E2802E" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

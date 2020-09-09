@@ -12,3 +12,4 @@
 /Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.dll
 /Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/ref/Tasky.dll
 /Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/Tasky.pdb
+/Users/jinyeob/Projects/Tasky/Tasky/obj/Debug/netstandard2.0/UpdateTask.xaml.g.cs
