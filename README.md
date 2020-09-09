@@ -1,5 +1,5 @@
 # Todo-Xamarin
-## C#, Xamarin - 'To-do' hybrid application
+## C#, Xamarin, SQLite - 'To-do' hybrid application
 ----
 시간은 UTC(GMT)+9 해야 정확
 <p>
